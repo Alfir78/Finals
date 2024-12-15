@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netopia: Futures Beyond the Algorithm</title>
+  <link rel="stylesheet" href="Finalstyles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Netopia: Futures Beyond the Algorithm</h1>
+    <p>Imagine an Internet where you are in control.</p>
+    <button onclick="scrollToSection('utopia')">Enter the Future</button>
+  </header>
+
+  <main>
+    <section id="utopia" class="section">
+      <h2>The Internet as a Community Garden</h2>
+      <p>A vision of ethical algorithms, privacy-first platforms, and grassroots connections.</p>
+      <div class="mockup">
+        <button onclick="showDetails('transparent')">Transparent Algorithm Settings</button>
+        <button onclick="showDetails('privacy')">Privacy Tracker</button>
+        <button onclick="showDetails('aid')">Mutual Aid Boards</button>
+      </div>
+      <div id="details" class="details"></div>
+    </section>
+
+    <!-- Transparent Algorithm Settings -->
+    <section id="transparent-settings" class="section hidden">
+        <h3>Transparent Algorithm Settings</h3>
+
+    <!-- Content Preferences -->
+    
+    <div class="content-preferences">
+        <strong class="label">Content Preferences:</strong>
+        <button class="custom-button" onclick="toggleDropdown('preferences')">Tailor your feed</button>
+    </div>
+    <div id="preferences" class="hidden">
+        <label><input type="checkbox" checked> Technology</label><br>
+        <label><input type="checkbox"> News</label><br>
+        <label><input type="checkbox"> Art & Culture</label><br>
+        <label><input type="checkbox"> Community Updates</label>
+    </div>
+    
+
+    <!-- Algorithm Insights -->
+    <div class="algorithm-insights">
+        <strong class="label">Algorithm Insights:</strong>
+        <button class="custom-button" onclick="toggleDropdown('insights')">View Insights</button>
+      </div>
+      <div id="insights" class="hidden">
+        <div class="insight-diagram">
+          <p>Your feed is influenced by your interactions, likes, and prioritized topics.</p>
+          <img src="/Users/alfirahman/Downloads/news feed.png" alt="Algorithm Diagram">
+        </div>
+    </div>
+
+    <!-- Override Controls -->
+    
+    <strong>Override Controls:</strong>
+    <label class="toggle-button">
+        <input type="checkbox" id="overrideToggle"> Turn On/Off
+    </label>
+    
+  </section>
+
+
+    <section id="Prison" class="section dark">
+      <h2>The Internet as a Digital Prison</h2>
+      <p style="text-align: center;">Imagine a world where every step you take, every click <br>
+    you make, and every word you type is being watched, <br>
+    analyzed, and stored. A world dominated by surveillance <br>
+    where your data becomes currency and your privacy <br>
+    a distant memory. Welcome to the digital prison <br>
+    we unknowingly inhabit every day.</p>
+      <div class="video-container">
+        <iframe 
+            class="video" 
+            src="https://www.youtube.com/embed/Mvi7ZvI9CTc"
+            allowfullscreen>
+        </iframe>
+    </div>
+    </section>
+
+    <section id="art" class="section">
+      <h2>Freedom vs. Surveillance</h2>
+      <p>Explore the contrast through abstract art.</p>
+      <img src="/Users/alfirahman/Downloads/freedom vs surveillance.jpeg" alt="Freedom vs. Surveillance">
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Netopia. The future is ours to build.</p>
+  </footer>
+
+  <script src="Finalscript.js"></script>
+</body>
+</html>

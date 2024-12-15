@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+
+  header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+  }
+  
+  button {
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #6a11cb;
+  }
+  
+  .section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .mockup button {
+    margin: 5px;
+  }
+  
+  .details, .simulator {
+    margin-top: 20px;
+  }
+  
+  canvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  /* Insight Diagram Container */
+.insight-diagram {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Make image responsive */
+  .insight-diagram img {
+    width: 100%; /* Set the image width to fill the container */
+    max-width: 600px; /* Restrict maximum size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px 0; /* Add spacing above and below */
+  }
+  
+  /* Responsive Adjustments for Small Screens */
+  @media screen and (max-width: 768px) {
+    .custom-button {
+      padding: 6px 10px; /* Slightly smaller padding for buttons */
+      font-size: 12px;
+    }
+  
+    .label {
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+  
+    .insight-diagram img {
+      max-width: 90%; /* Reduce image size further for small screens */
+    }
+  }
+
+  /* Video Styling */
+.video-container {
+    margin: 30px auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    max-width: 600px; /* Adjust width */
+    height: 340px; /* Adjust height for proper ratio */
+    border: none; /* Remove borders */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for style */
+
+}
+
+.footer {
+    text-align: center; /* Center the text */
+    padding: 10px 0; /* Add padding to top and bottom */
+    background-color: #1e1e1e; /* Optional: Footer background color */
+    color: #ffffff; /* Optional: Footer text color */
+    font-size: 1rem; /* Adjust font size */
+}
